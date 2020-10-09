@@ -18,9 +18,7 @@ git clone https://github.com/kus0023/React-Firebase-Shop.git
 [Firebase Console Link](https://firebase.google.com/)
 
 > You need to setup sign methods in authentication and enable Realtime database.
-> **_Recommended time (2.33 to 3.20) then (17.43 to 18.05)_**
-> [Watch this to Setting Things in Firebase](https://youtu.be/PZquB8XdU9k)
-> **Also enable Google and Facebook if You want to use it as well**
+> **_Recommended time (2.33 to 3.20) then (17.43 to 18.05)_** > [Watch this to Setting Things in Firebase](https://youtu.be/PZquB8XdU9k) > **Also enable Google and Facebook if You want to use it as well**
 
 ### copy configuration code and paste it into firebase-config/fire.js
 
@@ -37,4 +35,16 @@ git clone https://github.com/kus0023/React-Firebase-Shop.git
 hit this command to run the server:
 `npm start`
 
+## 5. Last Thing (Important one)
 
+After login You cannot see any data in Home Page.
+So, you need to add that data manually into firebase database.
+
+> I have done this for you just follow this.
+
+Open Extra/index.html
+**Put your firebase configuration in Line 17**
+
+Open this file in browser and CLick the button to add products in database.
+
+Enjoy!
