@@ -15,7 +15,7 @@ git clone https://github.com/kus0023/React-Firebase-Shop.git
 
 ## 2. Setup Firebase
 
-[Firebase](https://firebase.google.com/)
+[Firebase Console Link](https://firebase.google.com/){:target="_blank"}
 
 > You need to setup sign methods in authentication and enable Realtime database.
 > **_Recommended time (2.33 to 3.20) then (17.43 to 18.05)_**
