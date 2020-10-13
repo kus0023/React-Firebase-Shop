@@ -62,7 +62,14 @@ class Login extends Component {
   render() {
     return this.state.loading ? (
       <div style={{ display: "flex", justifyContent: "center" }}>
-        <Spinner as="span" animation="border" size="lg" role="status" aria-hidden="true" style={{ width: "10rem", height: "10rem" }} />
+        <Spinner
+          as="span"
+          animation="border"
+          size="lg"
+          role="status"
+          aria-hidden="true"
+          style={{ width: "10rem", height: "10rem" }}
+        />
         <span className="sr-only">Loading...</span>
       </div>
     ) : (
@@ -73,14 +80,25 @@ class Login extends Component {
               <tr>
                 <td>Email</td>
                 <td>
-                  <input id="email" type="email" placeholder="Enter Email" width="100px" className="form-control" />
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="Enter Email"
+                    width="100px"
+                    className="form-control"
+                  />
                 </td>
               </tr>
 
               <tr>
                 <td>Password</td>
                 <td>
-                  <input id="password" type="password" placeholder="Enter Password" className="form-control" />
+                  <input
+                    id="password"
+                    type="password"
+                    placeholder="Enter Password"
+                    className="form-control"
+                  />
                 </td>
               </tr>
 
@@ -94,13 +112,38 @@ class Login extends Component {
 
               <tr>
                 <td>
-                  <Button onClick={this.loginWithGoogle} variant="outline-light">
-                    <img src="https://img.icons8.com/color/48/000000/google-logo.png" alt="Google Login" />
+                  <Button
+                    onClick={this.loginWithGoogle}
+                    variant="outline-light"
+                  >
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
+                      alt="Google Login"
+                      width="30px"
+                    />
                   </Button>
                 </td>
                 <td>
-                  <Button onClick={this.loginWithFacebook} variant="outline-light">
-                    <img src="https://img.icons8.com/fluent/48/000000/facebook-new.png" alt="Google Login" />
+                  <Button
+                    onClick={this.loginWithFacebook}
+                    variant="outline-light"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="32"
+                      height="32"
+                      viewBox="0 0 32 32"
+                      version="1"
+                    >
+                      <path
+                        fill="#FFFFFF"
+                        d="M32 30a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h28a2 2 0 0 1 2 2v28z"
+                      ></path>
+                      <path
+                        fill="#4267b2"
+                        d="M22 32V20h4l1-5h-5v-2c0-2 1.002-3 3-3h2V5h-4c-3.675 0-6 2.881-6 7v3h-4v5h4v12h5z"
+                      ></path>
+                    </svg>
                   </Button>
                 </td>
               </tr>

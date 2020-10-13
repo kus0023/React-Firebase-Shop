@@ -1,4 +1,12 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Screenshots
+
+![](images/login.jpg)
+![](images/register.jpg)
+![](images/home.jpg)
+![](images/description.jpg)
+![](images/orders.jpg)
+![](images/cart.jpg)
+![](images/order-details.jpg)
 
 # Follow the step to get this project
 
