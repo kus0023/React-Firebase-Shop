@@ -1,6 +1,8 @@
 ## Demo
 [You Tube link for Demo](https://youtu.be/Nc4x1mjNS_Y)
 
+[Screenshots of demo](#screenshots)
+
 # Getting started
 
 > Follow the step to get this project
