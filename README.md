@@ -1,15 +1,6 @@
-# [How to get project](#follow-the-step-to-get-this-project)
-# Screenshots
+# Getting started
 
-![](images/login.jpg)
-![](images/register.jpg)
-![](images/home.jpg)
-![](images/description.jpg)
-![](images/orders.jpg)
-![](images/cart.jpg)
-![](images/order-details.jpg)
-
-# Follow the step to get this project
+> Follow the step to get this project
 
 ## 1. Fetching Project
 
@@ -44,7 +35,7 @@ git clone https://github.com/kus0023/React-Firebase-Shop.git
 hit this command to run the server:
 `npm start`
 
-## 5. Last Thing (Important one)
+## 5. Last Thing (Important one) (_Dummy Data_)
 
 After login You cannot see any data in Home Page.
 So, you need to add that data manually into firebase database.
@@ -57,3 +48,13 @@ Open Extra/index.html
 Open this file in browser and CLick the button to add products in database.
 
 Enjoy!
+
+# Screenshots
+
+![](images/login.jpg)
+![](images/register.jpg)
+![](images/home.jpg)
+![](images/description.jpg)
+![](images/orders.jpg)
+![](images/cart.jpg)
+![](images/order-details.jpg)

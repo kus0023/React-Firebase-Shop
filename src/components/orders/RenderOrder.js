@@ -1,8 +1,15 @@
 import React from "react";
-import { Accordion, Button, Card, Col, ListGroup, ListGroupItem, Row } from "react-bootstrap";
+import {
+  Accordion,
+  Button,
+  Card,
+  Col,
+  ListGroup,
+  ListGroupItem,
+  Row,
+} from "react-bootstrap";
 
 function RenderOrder(props) {
-  console.log(props.data);
   const orders = props.data.map((order, i) => (
     <Card key={i}>
       <Card.Header>
